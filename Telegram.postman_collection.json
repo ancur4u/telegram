@@ -1,0 +1,425 @@
+{
+	"info": {
+		"_postman_id": "5c233bf7-d807-4fea-a724-1fd48aa7c0b7",
+		"name": "Telegram",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Telegram_sendPhoto",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "photo",
+							"type": "file",
+							"src": "/Users/ankurparashar/Downloads/pexels-danne-516541.jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://api.telegram.org/bot1869907302:AAF4HlnSKOo8vGlEhdD8fXBbkXOOjhSJQdg/sendPhoto?chat_id=1029101054",
+					"protocol": "https",
+					"host": [
+						"api",
+						"telegram",
+						"org"
+					],
+					"path": [
+						"bot1869907302:AAF4HlnSKOo8vGlEhdD8fXBbkXOOjhSJQdg",
+						"sendPhoto"
+					],
+					"query": [
+						{
+							"key": "chat_id",
+							"value": "1029101054"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Telegram_sendPhoto",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "photo",
+									"type": "file",
+									"src": "/Users/ankurparashar/Downloads/pexels-danne-516541.jpg"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://api.telegram.org/bot1869907302:AAF4HlnSKOo8vGlEhdD8fXBbkXOOjhSJQdg/sendPhoto?chat_id=1029101054",
+							"protocol": "https",
+							"host": [
+								"api",
+								"telegram",
+								"org"
+							],
+							"path": [
+								"bot1869907302:AAF4HlnSKOo8vGlEhdD8fXBbkXOOjhSJQdg",
+								"sendPhoto"
+							],
+							"query": [
+								{
+									"key": "chat_id",
+									"value": "1029101054"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx/1.18.0"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 12 Jul 2021 09:05:48 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1137"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=31536000; includeSubDomains; preload"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, OPTIONS"
+						},
+						{
+							"key": "Access-Control-Expose-Headers",
+							"value": "Content-Length,Content-Type,Date,Server,Connection"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"ok\": true,\n    \"result\": {\n        \"message_id\": 38,\n        \"from\": {\n            \"id\": 1869907302,\n            \"is_bot\": true,\n            \"first_name\": \"Mule_Expert_Bot\",\n            \"username\": \"Mule_Expert_Bot\"\n        },\n        \"chat\": {\n            \"id\": 1029101054,\n            \"first_name\": \"Bond\",\n            \"username\": \"parasharankur\",\n            \"type\": \"private\"\n        },\n        \"date\": 1626080748,\n        \"photo\": [\n            {\n                \"file_id\": \"AgACAgUAAxkDAAMmYOwF7PbFgYpaG1UE-jsJVMquEckAAk2tMRs2xWBXiqp6PJw3L8MBAAMCAANzAAMgBA\",\n                \"file_unique_id\": \"AQADTa0xGzbFYFd4\",\n                \"file_size\": 1715,\n                \"width\": 90,\n                \"height\": 60\n            },\n            {\n                \"file_id\": \"AgACAgUAAxkDAAMmYOwF7PbFgYpaG1UE-jsJVMquEckAAk2tMRs2xWBXiqp6PJw3L8MBAAMCAANtAAMgBA\",\n                \"file_unique_id\": \"AQADTa0xGzbFYFdy\",\n                \"file_size\": 30895,\n                \"width\": 320,\n                \"height\": 213\n            },\n            {\n                \"file_id\": \"AgACAgUAAxkDAAMmYOwF7PbFgYpaG1UE-jsJVMquEckAAk2tMRs2xWBXiqp6PJw3L8MBAAMCAAN4AAMgBA\",\n                \"file_unique_id\": \"AQADTa0xGzbFYFd9\",\n                \"file_size\": 131856,\n                \"width\": 800,\n                \"height\": 533\n            },\n            {\n                \"file_id\": \"AgACAgUAAxkDAAMmYOwF7PbFgYpaG1UE-jsJVMquEckAAk2tMRs2xWBXiqp6PJw3L8MBAAMCAAN5AAMgBA\",\n                \"file_unique_id\": \"AQADTa0xGzbFYFd-\",\n                \"file_size\": 288023,\n                \"width\": 1280,\n                \"height\": 853\n            },\n            {\n                \"file_id\": \"AgACAgUAAxkDAAMmYOwF7PbFgYpaG1UE-jsJVMquEckAAk2tMRs2xWBXiqp6PJw3L8MBAAMCAAN3AAMgBA\",\n                \"file_unique_id\": \"AQADTa0xGzbFYFd8\",\n                \"file_size\": 428926,\n                \"width\": 2048,\n                \"height\": 1365\n            }\n        ]\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Set Initial Context",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/getUpdates",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"getUpdates"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "editText",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"msgId\": \"40\",\n    \"editText\": \"Good bye\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/editText",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"editText"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sendAudio",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"audioLink\": \"https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_700KB.mp3\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/sendAudio",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"sendAudio"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sendVideo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"videoLink\": \"https://file-examples-com.github.io/uploads/2017/04/file_example_MP4_480_1_5MG.mp4\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/sendVideo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"sendVideo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "editCaption",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"messageId\": \"41\",\n    \"caption\": \"Hello\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/editCaption",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"editCaption"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sendAnimation",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"animationLink\":\"https://tenor.com/bwbFq.gif\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/sendAnimation",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"sendAnimation"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sendMediaGrp",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"grpMsg\": [\n        {\n            \"type\": \"photo\",\n            \"media\": \"https://en.wikipedia.org/wiki/The_Big_Bang_Theory_(season_8)#/media/File:The_Big_Bang_Theory_Season_8.jpg\"\n        },\n        {\n            \"type\": \"photo\",\n            \"media\": \"https://en.wikipedia.org/wiki/Hello_(web_series)#/media/File:Hello_Web_Series_(Wordmark)_Logo.png\"\n        },\n        {\n            \"type\": \"photo\",\n            \"media\": \"https://pbs.twimg.com/profile_banners/877635902675181568/1564501231/1500x500\"\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/sendMediaGrp",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"sendMediaGrp"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "editCaption",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"messageId\": \"41\",\n    \"caption\": \"Hello\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/editCaption",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"editCaption"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sendPhoto",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"photo\": \"https://en.wikipedia.org/wiki/The_Big_Bang_Theory_(season_8)#/media/File:The_Big_Bang_Theory_Season_8.jpg\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/sendPhoto",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"sendPhoto"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteMsg",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"msgId\": \"56\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/deleteMsg",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"deleteMsg"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sendTextMsg",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"text\": \"Hello!\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/sendTextMsg",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"sendTextMsg"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
